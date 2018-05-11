@@ -1,0 +1,28 @@
+{
+  "name": "pivpos",
+  "homepage": "https://github.com/hayk-minasyan-dev/pivpos",
+  "authors": [
+    "Hayk Minasyan <hayk.minasyan.dev@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.14",
+    "jquery": "2.1.4",
+    "angular-bootstrap": "2.5.0",
+    "angular-ui-router": "0.4.2",
+    "bootstrap-css": "3.3.7",
+    "font-awesome": "5.0.6"
+  },
+  "resolutions": {
+    "angular": "1.4.14"
+  }
+}

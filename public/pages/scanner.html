@@ -1,0 +1,117 @@
+<style>
+    body {
+        background-image: url(../images/bg.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .scanContainer {
+        position: relative;
+        width: 100%;
+        height: 240px;
+    }
+
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .scanContainer #inner {
+        position: absolute;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 240px;
+        border: 30px solid rgba(64, 64, 64, 0.5);
+    }
+
+    .scanContainer #redline {
+        position: absolute;
+        top: 140px;
+        width: 100%;
+        height: 2px;
+        background-color: rgba(255, 0, 0, 0.3);
+
+    }
+
+    .errorText {
+        position: absolute;
+        left: 0;
+        top: 100px;
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        line-height: 60px;
+        height: 60px;
+        vertical-align: middle;
+        font-size: 28px;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .successText {
+        clear: both;
+        font-size: 21px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        background-color: green;
+        height: 55px;
+        line-height: 55px;
+        margin: 10px 0;
+    }
+
+    .logo-img {
+        width: 40%;
+        height: 12%
+    }
+
+    .scannerBlock {
+        width: 100%;
+        position: relative;
+        height: 240px;
+        overflow: hidden;
+        border: 1px solid #bbb
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+    }
+</style>
+
+<div class=" container">
+    <div class="row">
+        <div class="scannerBlock ">
+            <div ng-show="errorBarcodeInvalid" class="errorText">
+                <span>{{errorBarcodeInvalid}}</span>
+            </div>
+            <div class="scanContainer">
+                <video autoplay></video>
+                <div id="inner"></div>
+                <div id="redline">
+                </div>
+            </div>
+            <canvas style="display:none;"></canvas>
+        </div>
+        <div ng-show="successBarcode" class="successText">
+            <span> {{successBarcode}}</span>
+
+        </div>
+        <div style="clear: both;text-align: center">
+            <span ng-show="code"><strong>Code</strong>-{{code}}</span><br>
+            <span ng-show="format"><strong>Type</strong>-{{format}}</span>
+        </div>
+        <div class="footer">
+
+            <div style="text-align: center">
+                <div style="color: #bbb;font-size: 21px">powered by</div>
+                <img src="images/pivvit-large.png" class="logo-img">
+            </div>
+        </div>
+    </div>
+</div>

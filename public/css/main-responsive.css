@@ -1,0 +1,302 @@
+@media only screen and (max-width: 800px) {
+    .only-icon {
+        display: block;
+    }
+
+    .right-nav-menu {
+        display: none;
+    }
+
+    .main-left {
+        width: 70%;
+        height: 100vh;
+        margin-left: 5vh;
+    }
+
+    .email-header {
+        font-size: 14px !important;
+    }
+
+    .main-right {
+        width: 90%;
+        height: 100vh;
+    }
+
+    .main-left {
+        margin-top: 50px;
+    }
+
+    .menu-settings {
+        display: none;
+    }
+
+    .main-left .type {
+        height: 4vh;
+        min-height: 4vh;
+    }
+
+    .checkout-btn-container {
+        display: inline;
+    }
+
+    .approved-email {
+        font-size: 18px !important;
+        width: 30% !important;
+    }
+
+    .send-btn span {
+        font-size: 18px;
+        margin-left: 10%;
+
+    }
+
+    .domain {
+        font-size: 18px;
+    }
+
+    .top-search {
+        width: 350px;
+    }
+
+    .phone-btn {
+        font-size: 12px;
+    }
+
+    .left-m {
+        margin-left: 60px;
+    }
+
+    .invitation-btn {
+
+        height: 70px;
+    }
+
+    .approved-optional {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .approved-email {
+        font-size: 16px !important;
+        width: 30% !important;
+    }
+
+    .send-btn span {
+        font-size: 16px !important;
+
+    }
+
+    .domain {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .line-right-top-search {
+        display: block;
+    }
+
+    .adding {
+        font-size: 34px !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    .checkout-minus-item {
+        padding-right: 5px;
+        padding-left: 15px;
+    }
+
+    .checkout-plus-item {
+        padding-left: 5px;
+    }
+
+    .list-item {
+        font-size: 20px !important;
+    }
+
+    .line-right-top {
+        display: block;
+    }
+
+    .cardholder {
+        width: 78%;
+    }
+
+    .check-left {
+        margin-left: 0;
+    }
+
+    .gift-card-search {
+        margin-left: 1%;
+    }
+
+    .cash-left {
+        margin-left: 0;
+    }
+
+    .cash-row {
+        margin-left: 20%;
+    }
+
+    .amount-row {
+        margin-left: 20%;
+    }
+
+    .donation-cash-row {
+        width: 105%;
+        margin-left: -10%;
+    }
+
+    .add-donation {
+        margin-left: -30%;
+    }
+
+    .domain {
+        font-size: 18px;
+    }
+
+    .send-btn span {
+        font-size: 18px;
+        margin-left: 5%;
+
+    }
+
+    .approved-email {
+        font-size: 18px !important;
+        width: 32% !important;
+    }
+
+    .invitation-btn {
+        font-size: 15px;
+    }
+
+    .approved-optional {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen  and (max-width: 500px) {
+    .checkout-minus-item {
+        padding-right: 5px;
+        padding-left: 15px;
+    }
+
+    .checkout-plus-item {
+        padding-left: 5px;
+    }
+}
+
+@media only screen and (min-height: 350px) {
+    .search-btn {
+        height: 60px !important;
+    }
+
+    i.search-btn-left {
+        height: 9vh !important;
+    }
+
+}
+
+@media only screen and (min-height: 600px) {
+    .gift-row {
+        width: 72% !important;
+    }
+
+    .cname-icon {
+        height: 9vh !important;
+    }
+
+    .search-only-btn-i {
+        height: 9vh !important;
+
+    }
+
+}
+
+@media only screen and (max-width: 1280px) {
+    .gift-search-input {
+        font-size: 12px !important;
+    }
+
+    .below-signature {
+        width: 73%;
+
+    }
+
+    .email-header {
+        font-size: 18px;
+    }
+
+    .small-right .cardholder {
+        width: 71%;
+    }
+
+    .small-right .cardholder input {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .phone-btn, .email-btn {
+        font-size: 19px;
+    }
+
+    .left-phone-btn {
+        font-size: 15px;
+    }
+
+    .phone-icon {
+        width: 8%;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .phone-btn, .email-btn {
+        font-size: 14px;
+    }
+
+    .left-phone-btn {
+        font-size: 12px !important;
+    }
+
+}
+
+@media only screen and (max-height: 450px) {
+    .menu-settings {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-height: 700px) {
+    .offering-container {
+        margin-top: 0;
+    }
+
+}
+
+@media only screen
+and (min-device-width: 568px)
+and (max-device-width: 700px)
+and (orientation: portrait) {
+    body div {
+        display: none;
+    }
+
+    p.portrait {
+        display: block !important;
+        color: red;
+        font-size: 50px;
+    }
+}
+
+
