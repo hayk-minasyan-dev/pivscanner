@@ -8,7 +8,7 @@ class BarcodeController extends Controller
 
     public function useBarcode(Request $request)
     {
-        if($request->code=="PIV-70-2020"){
+        if($request->code=="1-70-2020"){
             $success = true;
             $message="ACCEPTED";
         }else{

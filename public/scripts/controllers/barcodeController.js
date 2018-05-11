@@ -3,7 +3,7 @@ app.controller('barcodeController', ['$http', '$scope', 'barcodeService',
         var errorAudio = new Audio('audio/beep.mp3');
         var successAudio = new Audio('audio/beep.mp3');
         var profileId = 70;
-        var pivvitId='PIV';
+        var pivvitId=1;
         var response;
 
 
@@ -17,7 +17,6 @@ app.controller('barcodeController', ['$http', '$scope', 'barcodeService',
                 })
             }
             else {
-                $scope.successBarcode = false
 
                 $http({
                     method: 'POST',
@@ -93,7 +92,5 @@ app.controller('barcodeController', ['$http', '$scope', 'barcodeService',
         setTimeout(function () {
             init()
         }, 1000)
-
-
 
     }]);
